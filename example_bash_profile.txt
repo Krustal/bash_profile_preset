@@ -1,0 +1,4 @@
+bash_conf_dir=".bash_profile.d/"
+if [ -f .bash_profile.d/bash_profile.sh ]; then
+	. .bash_profile.d/bash_profile.sh
+fi
